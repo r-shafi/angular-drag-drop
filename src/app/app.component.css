@@ -1,0 +1,19 @@
+.list {
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  padding: 1rem;
+}
+
+.item {
+  width: 100%;
+  font-size: 1.3rem;
+  border-bottom: 1px dotted rgba(0, 0, 0, 0.5);
+  padding: 1rem;
+}
+
+.item:last-child {
+  border-bottom: none;
+}
+
+.cdk-drag-placeholder {
+  opacity: 0;
+}
